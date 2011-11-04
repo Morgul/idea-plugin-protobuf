@@ -11,6 +11,10 @@
         </p>
         ]]>
     </description>
+    
+    <!-- Mark the plugin as compatible with PyCharm, RubyMine and other products based on the IntelliJ platform -->
+    <depends>com.intellij.modules.lang</depends>
+    
     <idea-version since-build="10000"/>
     <change-notes>
         <![CDATA[
